@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+
+.buttonSet-selection{
+	background-color: #222;
+	padding: 10vh 0 4vh 9vh;
+}
+
+.button-selection{
+	padding: .6% 2.5%;
+	border-radius: 0 !important;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.8rem;
+}
+
+.markedClass{
+	color: rgb(33, 139, 153) !important;
+}
+
+.grid-img{
+	background-color: #222222;
+	padding-bottom: 25vh;
+}
+
+.show-grid{
+	background-color: #222222;
+	width: 95%;
+	margin: auto;
+}
+
+.img{
+	max-width: 100%;
+	height: auto;
+	margin: 3vh 0 0;
+	position: relative;
+	border-radius: 0 !important;
+	animation: Zoom .8s ease;
+	transition: all .8s ease;
+}
+
+.img:hover{
+	transform: scale(1.1);
+	z-index: 999;
+}
+
+@keyframes Zoom {
+    from {transform: scale(0); opacity: 0;}
+    to {transform: scale(1); opacity: 1;}
+}
+
+.none{
+	display: none;
+}
+
+.block{
+	display: block;
+}
